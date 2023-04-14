@@ -5,16 +5,19 @@ CS622_Jisoo Lee_02.06.2023
 1.Program name: indiegogo-data-memory
 
 2.Purpose
-  - Learning how to save the data (term, frequency, timestamp) in the memory
+  - Merging the data files into one file
+  - Learning how to save the data (term, frequency, timestamp) in the memory and easily search the keywords
   - Prints out the searched result and saved data
 
 3.Descriptions
-  - First, make a directory : check if the directory folder exists
-  - Second, check the header column of the file : split a comma followed by a even numbers of quotes
-   (checking if there are /n within the quotes)
-  - Third, get the files one by one and check the header column and merge
-  - Forth, search the keyword (user's input) and print it out. (No duplicates - used HashSet)
-  - Fifth, show the saved memory (term, timestamp, frequency)
+  - Download some files from Indiegogo dataset (https://webrobots.io/indiegogo-dataset)
+  - Make a directory : check if the directory folder exists
+  - Merge files into one file (big file)
+     1) Check the header column of the file : split a comma followed by a even numbers of quotes
+    (checking if there are /n within the quotes)
+     2) Get the files one by one and check the header column and merge
+  - Search the keyword (user's input) and print it out. (No duplicates - used HashSet)
+  - Show the saved memory (term, timestamp, frequency)
 
   4. Test Cases
 ```
